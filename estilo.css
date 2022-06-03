@@ -1,0 +1,38 @@
+body {
+    background-color: #1b1b1b;
+    color: white;
+}
+
+.pilha {
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 55rem;
+}
+
+ .caixa-principal {
+    background-color: rgb(138, 185, 45);
+    border-radius: 15px;
+    width: 45rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    color: black;
+ }
+
+ .caixinha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+     width: auto;
+     height: 5rem;
+     padding: 5rem;
+ }
