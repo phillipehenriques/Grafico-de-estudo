@@ -1,3 +1,15 @@
+:root {
+    --bar-color-1: #357EC7;
+    --bar-color-2: #E42217;
+    --bar-color-3: #4CC417;
+    --bar-color-4: #7D0541;
+    --bar-color-5: #FFD801;
+  }
+
+.cor {
+    background-color: blue;
+}
+
 body {
     background-color: #1b1b1b;
     color: white;

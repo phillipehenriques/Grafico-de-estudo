@@ -15,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         
+        <link rel="stylesheet" href="flexbox-bar-graph.css" />
         <link href="bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link href="estilo.css" rel="stylesheet" />
     </head>
@@ -23,12 +24,34 @@
         
         <main class="col-lg-12 pilha">
             <div class="caixa-principal">
-                <div class="text-center caixinha">
-                    ola
-                </div>
-                <div class="text-center caixinha">
-                    ola
-                </div>
+                <table data-id="flexbox-bar-graph" data-layout="horizontal">
+                    <caption>Web Performance Results</caption>
+                    <thead>
+                        <tr>
+                            <th>Test Performed</th>
+                            <th>Before</th>
+                            <th>After</th>
+                            <th>Difference</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Initial Load Time</th>
+                            <td>
+                                <span style="--data-set:4.7/5;"></span>
+                                <p>4.7</p>
+                            </td>
+                            <td>
+                                <span style="--data-set:2.7/5;"></span>
+                                <p>2.7</p>
+                            </td>
+                            <td>
+                                <span class="cor" style="--data-set:2/5;"></span>
+                                <p>2</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
             </div>
         </main>
         
