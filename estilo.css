@@ -1,32 +1,21 @@
-:root {
-    --bar-color-1: #357EC7;
-    --bar-color-2: #E42217;
-    --bar-color-3: #4CC417;
-    --bar-color-4: #7D0541;
-    --bar-color-5: #FFD801;
-  }
-
-.cor {
-    background-color: blue;
-}
-
-body {
-    background-color: #1b1b1b;
-    color: white;
+.rodape {
+    background-color: burlywood;
 }
 
 .pilha {
-    background-color: yellowgreen;
+    background-color: coral;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: auto;
+    width: 100%;
     height: 55rem;
 }
 
  .caixa-principal {
-    background-color: rgb(138, 185, 45);
+    background-color: burlywood;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     width: 45rem;
     height: 50rem;
@@ -38,13 +27,4 @@ body {
     color: black;
  }
 
- .caixinha {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: aqua;
-     width: auto;
-     height: 5rem;
-     padding: 5rem;
- }
+
